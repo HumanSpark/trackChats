@@ -1,23 +1,31 @@
-# TrackChats Chrome Extension (v1.5)
+# trackChats Chrome Extension
 
-TrackChats lists your past chats from multiple AI chat platforms and lets you download them as a CSV. 
+trackChats lists your past chats from multiple AI chat platforms and lets you download them as a CSV. 
 It now auto-refreshes when you navigate or reload a supported tab.
 
 Supported platforms:
-- ChatGPT
 - Google AI Studio
-- Google Gemini (no chat list yet)
 - Anthropic Claude
-- DeepSeek
+
+Planned platforms:
+- DeepSeek (WIP)
+- ChatGPT (WIP)
+- Google Gemini (WIP)
+
+Only Claude and AIstudio are functioning right now; the others are work in progress. 
 
 ## Installation
-1. Download the TrackChats_v15.zip and unzip it.
+1. Download trackChats.zip and unzip it to a folder
 2. Open chrome://extensions
 3. Enable Developer mode.
-4. Click Load unpacked and select the TrackChats_v15 folder.
+4. Click Load unpacked and select the trackChats folder.
 
 ## Usage
 - Open a supported site.
-- Click the TrackChats toolbar icon.
-- The list auto-refreshes on navigation, but you can press Refresh if needed.
+- Click the trackChats toolbar icon.
+- The list should auto-refresh on navigation, but you can press Refresh if needed.
 - Click Download CSV to export all chats.
+
+## MIT License
+See LICENCE.txt for details
+Copyright (c) 2025 Alastair McDermott - HumanSpark.ai
