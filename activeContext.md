@@ -2,14 +2,18 @@
 
 This file is used to persist important project information across sessions.
 
+## Git Repository
+- Connected to: https://github.com/HumanSpark/trackChats
+
 ## Current Goals
-- Git repository initialized.
+- Project successfully connected to Git repository.
+- Begin development on the browser extension.
 
 ## Recent Decisions
-- None yet.
+- Initial commit of existing code performed.
 
 ## Active Files
-- None yet.
+- All project files.
 
 ## Next Steps
-- Git repository has been initialized in the current directory.
+- Implement core features of the browser extension, starting with chat tracking.
