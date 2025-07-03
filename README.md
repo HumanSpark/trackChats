@@ -1,5 +1,9 @@
 # trackChats Chrome Extension
 
+Keeping track of what AI chat you had in which platform is pain. This extension is my attempt to solve that for myself. All feedback and suggestions welcome
+
+Alastair.
+
 trackChats lists your past chats from multiple AI chat platforms and lets you download them as a CSV. 
 It now auto-refreshes when you navigate or reload a supported tab.
 
