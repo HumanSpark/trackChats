@@ -1,0 +1,7 @@
+body { font-family: Arial, sans-serif; margin: 10px; width: 320px; }
+h1 { font-size: 18px; margin: 0 0 10px 0; }
+.btn-row { display: flex; gap: 6px; margin-bottom: 10px; }
+button { flex: 1; }
+.platform { margin-top: 8px; }
+.platform h2 { font-size: 14px; margin: 4px 0; }
+a { display: block; font-size: 12px; text-decoration: none; color: #0073e6; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
