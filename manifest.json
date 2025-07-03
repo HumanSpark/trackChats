@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "TrackChats",
-  "version": "1.6",
-  "description": "Lists your past chats (titles + URLs) from ChatGPT, AI Studio, Gemini, Claude & DeepSeek with auto‑refresh. Improved ChatGPT & DeepSeek scrapers.",
+  "name": "trackChats",
+  "version": "1.7",
+  "description": "Lists your past chats (titles + URLs) from ChatGPT, AI Studio, Gemini, Claude & DeepSeek with auto‑refresh. Now fully working again.",
   "icons": { "128": "icons/icon.png" },
   "permissions": ["activeTab", "storage", "scripting", "tabs"],
   "host_permissions": [
