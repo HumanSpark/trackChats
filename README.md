@@ -8,15 +8,15 @@ trackChats lists your past chats from multiple AI chat platforms and lets you do
 It now auto-refreshes when you navigate or reload a supported tab.
 
 Supported platforms:
+- ChatGPT 
+- Google Gemini 
 - Google AI Studio
 - Anthropic Claude
 
 Planned platforms:
 - DeepSeek (WIP)
-- ChatGPT (WIP)
-- Google Gemini (WIP)
 
-Only Claude and AIstudio are functioning right now; the others are work in progress. 
+Deepseek is work in progress. 
 
 ## Installation
 1. Download trackChats.zip and unzip it to a folder

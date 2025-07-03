@@ -1,7 +1,8 @@
+// ===================== manifest.json =====================
 {
   "manifest_version": 3,
   "name": "trackChats",
-  "version": "1.9",
+  "version": "1.12",
   "description": "Lists your past chats (titles + URLs) from ChatGPT, AI Studio, Gemini, Claude & DeepSeek with auto‑refresh. Fixed for July 2025 changes.",
   "icons": { "128": "icons/icon.png" },
   "permissions": ["activeTab", "storage", "scripting", "tabs"],
@@ -12,15 +13,22 @@
     "https://gemini.google.com/*",
     "https://claude.ai/*",
     "https://chat.deepseek.com/*",
+    "https://chat.deepseek.ai/*",
+    "https://deepseek.ai/*",
+    "https://deepseek.com/*",
+    "https://deepseek.chat/*",
     "https://www.deepseek.com/*"
   ],
   "action": { "default_popup": "popup.html", "default_icon": "icons/icon.png" },
   "background": { "service_worker": "background.js" },
   "content_scripts": [
-    { "matches": ["https://chat.openai.com/*", "https://chatgpt.com/*"],  "js": ["content_scripts/chatgpt.js"] },
-    { "matches": ["https://aistudio.google.com/*"], "js": ["content_scripts/aistudio.js"] },
-    { "matches": ["https://gemini.google.com/*"],   "js": ["content_scripts/gemini.js"] },
-    { "matches": ["https://claude.ai/*"],            "js": ["content_scripts/claude.js"] },
-    { "matches": ["https://chat.deepseek.com/*", "https://www.deepseek.com/*"],    "js": ["content_scripts/deepseek.js"] }
+    { "matches": ["https://chat.openai.com/*", "https://chatgpt.com/*"],                                                      "js": ["content_scripts/chatgpt.js"] },
+    { "matches": ["https://aistudio.google.com/*"],                                                                           "js": ["content_scripts/aistudio.js"] },
+    { "matches": ["https://gemini.google.com/*"],                                                                              "js": ["content_scripts/gemini.js"] },
+    { "matches": ["https://claude.ai/*"],                                                                                      "js": ["content_scripts/claude.js"] },
+    { "matches": [
+        "https://chat.deepseek.com/*", "https://chat.deepseek.ai/*", "https://deepseek.ai/*", "https://deepseek.com/*",
+        "https://deepseek.chat/*", "https://www.deepseek.com/*"
+      ], "js": ["content_scripts/deepseek.js"] }
   ]
 }
